@@ -1,0 +1,182 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 16px;
+
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin:0;
+}
+input[type=number] {
+  -moz-appearance:textfield;
+}
+
+nav {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+/*Main Page*/
+#header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../images/header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.vert-text {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.inner {
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(44, 62, 80, 0.89);
+    padding-top: 3em;
+}
+
+hgroup {
+  /*background-color: rgba(200, 200, 200, 0.4);*/
+  background-color: rgba(44, 62, 80, 0.7);
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+.vert-text h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+  /*color: #2C3E50;*/
+  color: #E74C3C;
+  text-shadow: 2px 2px 3px #fff, 2px 2px 3px #000, 2px 2px 3px #000;	
+}
+
+.vert-text h2 em {
+	color: #f1f1f1;
+	text-shadow: 0px 0px 3px #000;
+}
+
+
+/*Footer*/
+footer {
+	background: rgba(224, 224, 224, 0.2);
+}
+
+.text-muted {
+	color: #fff;
+	padding-top: 20px;
+}
+
+
+
+
+/*
+TRAINER
+*/
+#trainField {
+  padding: 2em 1em;
+  border: 5px solid #eee;
+  background-color: rgba(216, 216, 216, .9);
+  margin: 0 auto;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 0 20px #333;
+}
+
+#trainField .col-sm-6:first-child {
+  border-right: 2px solid #eee;
+}
+
+#trainField h4{
+  margin: 0 auto 1.5em;
+  font-size: 1.5em;
+  background: #3498DB;
+  line-height: 3;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid #aaa;
+  box-shadow: 0 0px 2px #000;
+}
+
+
+#generate, #answer {
+  background-color: #E74C3C;
+  margin: 4px;
+  box-shadow: 0 0 2px #aaa;
+  border: 1px solid #aaa;
+  color: #fff;
+  padding: 0.5em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  letter-spacing: 0.125em;
+  text-shadow: 2px 2px 1px #555;
+}
+
+#generate:hover, #answer:hover {
+  background-color: #C0392B;
+}
+
+#trainField input[type="number"] {
+	text-align: center;
+	font-size: 2em;
+  color: #2C3E50;
+  padding: 0.125em;
+  font-weight: bold;
+}
+
+#field1, #field2 {
+  width: 48%;
+}
+
+#trainField strong {
+  font-size: 2em;
+}
+
+#generate, #answ, #answer {
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+}
+
+input[type=radio] {
+  width: 2em;
+  height: 2em;
+}
+
+.diapason p {
+  text-align: left;
+}
+
+.diapason p label {
+  padding-left: 0.5em;
+  font-size: 2em;
+  line-height: 1;
+  color: #2C3E50;
+}
+
+.diapason p:hover {
+  background-color: #aaa;
+}

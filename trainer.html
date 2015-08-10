@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mental Arithmetic - Тренажер для устного счета</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/custom.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+
+
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">Mental Arithmetic</a>
+        </div>
+        <div class="container">
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Главная</a></li>
+            <li class="active"><a href="trainer.html">Тренажер</a></li>
+            <li><a href="about.html">О сайте</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div id="header">
+        <div class="vert-text inner">
+          <div id="trainField" class="container">
+            <div class="row">
+              <div class="col-sm-6">
+
+                <h4>Генератор</h4>
+                <div class="row">
+                  <div class="col-sm-5"></div>
+                  <div class="col-sm-5"></div>
+                </div>                
+                <input type="number" id="field1">
+
+                <strong>*</strong>
+
+                <input type="number" id="field2">
+
+                <button id="generate">Генерировать</button>
+
+                <input type="number" id="answ">
+
+                <button id="answer">Узнать ответ</button>
+              </div>
+
+              <div class="col-sm-6">
+                <h4>Диапазоны</h4>
+                <div class="col-sm-6 diapason">
+                  <p>
+                    <input type="radio" name="diapason" id="r1" value="n15"> <label for="r1">10 - 20</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="diapason" id="r2" value="n20"> <label for="r2">20 - 30</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="diapason" id="r3" value="n90"> <label for="r3">90 - 100</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="diapason" id="r4" value="n145"> <label for="r4">95 - 145</label>
+                  </p>
+                  <p>
+                    <input type="radio" name="diapason" id="r5" value="n100"> <label for="r5">100 - 115</label>
+                  </p>
+                </div>
+                <div class="col-sm-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <p class="text-muted text-center">&copy; 2015</p>
+        </div>
+      </footer>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/main.js"></script>
+    </body>
+    </html>
